@@ -1,3 +1,3 @@
 # welcome
 welcome to our official profile
-author - Mr salamuddin
+about : Mr salamuddin
