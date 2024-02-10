@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="style.css">
+        <title>feedback forms</title>
+        
+    </head>
+
+<body>  
+<div class="bg-image"></div>
+   <div  class="bg-text">
+    <form method="post" action="#">
+        <h1> feedback form</h1>
+<fieldset>
+    <legend>PERSONAL INFORMATION</legend>
+    <table>
+<tr>
+    <td>
+        <lebel for="Name">Name :</lebel>
+    </td>
+    <td>
+        <input type="text" id="name" name="user_name" placeholder="enter your name" required;
+    </td>
+</tr>
+<tr>
+    <td>
+        <lebel for="Address" > Address:</lebel>
+    </td>
+    <td>
+        <input type="text" id="Address" address="user_address" placeholder="enter your address";
+    </td>
+</tr>
+<tr>
+    <td>
+        <lebel for="email">Email id:</lebel>
+    </td>
+    <td> 
+        <input type="text"; id="email" email="user_email" placeholder="enter your email here";
+    </td>
+</tr>
+<tr>
+    <td>
+        <lebel for="phone"> Phone:</lebel>
+    </td>
+    <td>
+        <input type="tel" id="phone" phone="user_phone" placeholder="enter your phone number";
+    </td>
+</tr>
+<tr>
+    <td>
+        <lebel for="gender"> gender:</lebel>
+    </td>
+</tr>
+        <table>  
+<tr>
+    <td>
+<input type="radio" value="male" name="gender">
+    </td>
+    <td> 
+        male
+    </td>
+</tr>
+<tr>
+    <td>
+        <input type="radio" value="female" name="gender">
+    </td>
+    <td> female</td>
+</tr>
+<tr>
+    <td>
+        <input type="radio" value="other" name="gender">
+    </td>
+    <td> other </td>
+</tr>
+            </table>
+<tr>
+    <dt>
+       <lebel for="DOB">Date of Birth:</lebel>
+    
+    <td> 
+        <input type="date" id="DOB" name="user_DOB">
+    </td>
+
+</tr>
+
+  </table>
+    </fieldset>
+
+    <fieldset>
+        <div>
+            <lebel for="dept"> Department:</lebel>
+    
+        <select id="dropdown1">
+            <option value="dept1"> MMICT & BM</option>
+            <option value="dept2"> Department2</option>
+            <option value="dept3"> Department #3</option>
+            <option value="dept4"> Department #4</option>
+            <option value="dept5"> Department #5</option>
+        </select> 
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        <lebel for="status">online status</lebel>
+        <select id="dropdown2">
+            <option value="online"> online</option>
+            <option value="ofline">ofline</option>
+    </select>
+    </div>
+    </fieldset>
+    <fieldset>
+        <legend>your feedback</legend>
+        <div>
+           <textarea name="user_message" id="" cols="40" rows="8"   placeholder="enter your message here"></textarea> 
+        </div>
+    </fieldset>
+
+    <div id="submitbutton">
+        <button type="submit"> submit four feedback</button>
+    </div>
+    </form>
+
+   </div>
+</body>
+</html>
